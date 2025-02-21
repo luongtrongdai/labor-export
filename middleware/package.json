@@ -1,0 +1,24 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@vercel/node": "^5.1.7",
+    "apollo-server-express": "^3.13.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "graphql": "^16.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

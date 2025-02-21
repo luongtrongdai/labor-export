@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start-fe": "npm run --prefix ./frontend start" ,
+    "start-fe": "npm run --prefix ./frontend start",
+    "start:mw": "npm run --prefix ./middleware start", 
+    "start": "concurrently \"npm run start:fe\" \"npm run start:mw\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
